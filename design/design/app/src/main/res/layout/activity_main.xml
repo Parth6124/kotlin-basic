@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6ECCA3"
+    android:textAlignment="center"
+    android:textDirection="anyRtl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="332dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="80px"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintT="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        <!--tools:ignore="DuplicateIds,PxUsage" -->/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="332dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/our_login_page"
+        android:textAlignment="center"
+        android:textSize="85px"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintT="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+       <!-- tools:ignore="DuplicateIds,PxUsage" -->/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="168dp"
+        android:layout_height="25dp"
+        android:background="#8A4848"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#B84848"
+        android:text="@string/enter_your_email"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:flow_horizontalAlign="start"
+        app:flow_verticalAlign="baseline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28"
+        <!--tools:ignore="MissingConstraints,TextContrastCheck"--> />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="168dp"
+        android:layout_height="25dp"
+        android:background="#8A4848"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#B84848"
+        android:text="@string/enter_your_password"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:flow_horizontalAlign="start"
+        app:flow_verticalAlign="baseline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        <!--tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"--> />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="#D81B0B0B"
+        android:backgroundTintMode="src_in"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#C86666"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277"
+        <!--tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck"--> />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="#1C1111"
+        android:backgroundTintMode="src_in"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:shadowColor="#C86666"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        <!--tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" -->/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#8A4848"
+        android:buttonTint="#7C3C3C"
+        android:fontFamily="sans-serif-smallcaps"
+        android:shadowColor="#CC4141"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466"
+        <!--tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"--> />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#8A4848"
+
+        android:text="@string/sign_in"
+        android:textColor="#060706"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565"
+
+
+       <!-- tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"--> />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="407dp"
+        android:layout_height="46dp"
+        android:text="@string/made_by_parth_info"
+        android:textAlignment="textEnd"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="false"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:flow_horizontalAlign="end"
+        app:flow_verticalAlign="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

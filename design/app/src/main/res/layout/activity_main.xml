@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E16969"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:fontFamily="@string/appbar_scrolling_view_behavior"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:background="@color/cardview_dark_background"
+        android:flow_horizontalAlign="center"
+        android:flow_verticallAlign="center"
+        android:text="Made By PARTH INFO."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="707dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
