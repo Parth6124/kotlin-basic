@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">design</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_your_username">Enter Your Username:</string>
+    <string name="our_login_page">Our Login page</string>
+    <string name="enter_your_email">Enter Your Email :</string>
+    <string name="sign_up"><![CDATA[Sign Up =>]]></string>
+    <string name="enter_your_password">Enter Your Password :</string>
+    <string name="sign_in">Sign in</string>
+    <string name="made_by_parth_info">Made By Parth Info.</string>
+    <string name="to_our_first_apk">To Our First Apk</string>
+</resources>
